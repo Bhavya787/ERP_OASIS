@@ -1,0 +1,28 @@
+<!-- Table for Farmer Information -->
+<div class="section-title">
+  <h2>Show Farmer</h2>
+</div>
+
+<div class="container table-container">
+  <div class="row tbl-fixed">
+    <table class="table">
+      <thead>
+        <th>Token ID</th>
+        <th>Name</th>
+        <th>Mobile Number</th>
+        <th>Account Number</th>
+        <th>IFSC Code</th>
+        <th>Branch</th>
+        <th>Amount</th>
+        <!-- <tr>
+          <th *ngFor="let column of columns">{{ column }}</th>
+        </tr> -->
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of data">
+          <td *ngFor="let column of columns">{{ row[column] }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

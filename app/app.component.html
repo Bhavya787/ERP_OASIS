@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" style="padding: 0;">
+
+<head> 
+  <meta charset="UTF-8">
+  <title>Oasis ERP</title>
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+  <!-- <link rel="icon" type="image/x-icon" href="assets\Images\Oasis Milk Logo .png"> -->
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head> 
+
+<body class="body"> 
+
+
+  <div class="wrapper">
+    <div class="sidebar">
+      <h2>Sidebar</h2>
+      <ul>
+        <!-- <li><a ><i class="fas fa-home"></i> Home</a></li> -->
+   
+        <li><a routerLink="RegisterFarmer"><fa-icon [icon]="faUser"></fa-icon> Register Farmer</a></li>
+        <li><a routerLink="BuyMilk"><fa-icon [icon]="faFile"></fa-icon> Buy Milk</a></li>
+        <li><a routerLink="ShowFarmers"><fa-icon [icon]="faIdCard"></fa-icon> Show Farmer</a></li>
+        <li><a routerLink="PayFarmer"><fa-icon [icon]="faMoneyBillAlt"></fa-icon> Pay Farmer</a></li>
+        <li><a routerLink="MilkBifurcation"><fa-icon [icon]="faAddressBook"></fa-icon> Milk Bifurcation</a></li>
+        <li><a routerLink="ProductProduction"><fa-icon [icon]="faChartBar"></fa-icon> Product Productions</a></li>
+        <li><a routerLink="RegisterVendor"><fa-icon [icon]="faUser"></fa-icon> Register Vendor</a></li>
+        <li><a routerLink="ShowVendors"><fa-icon [icon]="faIdCard"></fa-icon> Show Vendors</a></li>
+        <li><a routerLink="ProductPrices"><fa-icon [icon]="faChartBar"></fa-icon> Product Prices</a></li>
+        <li><a routerLink="SellProducts"><fa-icon [icon]="faCreditCard"></fa-icon> Sell Products</a></li>
+        <li><a routerLink="VendorStatus"><fa-icon [icon]="faIdCard"></fa-icon> Vendor Status</a></li>
+        <li><a routerLink="VendorPayments"><fa-icon [icon]="faMoneyBillAlt"></fa-icon> Vendor Payment</a></li>
+        <li><a routerLink="VendorTransactions"><fa-icon [icon]="faIdCard"></fa-icon> Vendor Transaction</a></li>
+        <li><a routerLink="ManageTrucks"><fa-icon [icon]="faAccessibleIcon"></fa-icon> Manage Vehicles</a></li>
+        <li><a routerLink="TruckDetails"><fa-icon [icon]="faIdCard"></fa-icon> Vehicles Details</a></li>
+        <li><a routerLink="Overhead"><fa-icon [icon]="faFile"></fa-icon> Add Overhead</a></li>
+        <li><a routerLink="OverheadDetails"><fa-icon [icon]="faIdCard"></fa-icon> Show Overhead</a></li>
+        <li><a routerLink="Logistics"><fa-icon [icon]="faFile"></fa-icon> Add Logistics</a></li>
+        <li><a routerLink="LogisticsDetails"><fa-icon [icon]="faIdCard"></fa-icon> Show Logistics</a></li>
+        <li><a routerLink="RawMaterials"><fa-icon [icon]="faFile"></fa-icon> Add Raw Materials</a></li>
+        <li><a routerLink="UseRawMaterials"><fa-icon [icon]="faFile"></fa-icon> Use Raw Materials</a></li>
+        <li><a routerLink="RawMaterialsDetails"><fa-icon [icon]="faIdCard"></fa-icon> Show Raw Materials</a></li>
+
+        <li><a VendorStatus><fa-icon [icon]="faChartArea"></fa-icon> Stock Management</a></li>
+        <li><a href="#"><fa-icon [icon]="faChartPie"></fa-icon> Profit & Loss Report</a></li>
+      </ul>
+    </div>
+  </div>
+
+<!-- <app-show-vendors></app-show-vendors> -->
+<router-outlet> </router-outlet>
+
+</body> 
+</html> 

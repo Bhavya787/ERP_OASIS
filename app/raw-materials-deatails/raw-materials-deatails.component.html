@@ -1,0 +1,56 @@
+<!-- Table for Farmer Information -->
+<div class="section-title">
+  <h2>Show Raw Materials</h2>
+</div>
+
+<div class="container table-container">
+  <div class="row tbl-fixed">
+    <table class="table">
+      <thead>
+        <th>OASIS MILK CM 500 ML ROLE QUANTITY</th>
+<th>OASIS MILK CM 200 ML ROLE QUANTITY</th>
+<th>OASIS MILK TM 500 ML ROLE QUANTITY</th>
+<th>OASIS MILK TM 200 ML ROLE QUANTITY</th>
+<th>OASIS LASSI 200 ML P P ROLE QUANTITY</th>
+<th>OASIS LASSI CUP200 ML CUP QUANTITY</th>
+<th>OASIS LASSI MANGO CUP 200 ML CUP QUANTITY</th>
+<th>OASIS DAHI 200 ML ROLE QUANTITY</th>
+<th>OASIS DAHI 500 ML ROLE QUANTITY</th>
+<th>OASIS DAHI 2 LTR 3.0 BUCKET QUANTITY</th>
+<th>OASIS DAHI 5 LTR 3.0 BUCKET QUANTITY</th>
+<th>OASIS DAHI 10 LTR 3.0 BUCKET QUANTITY</th>
+<th>OASIS DAHI 2 LTR 1.5 BUCKET QUANTITY</th>
+<th>OASIS DAHI 5 LTR 1.5 BUCKET QUANTITY</th>
+<th>OASIS DAHI 10 LTR 1.5 BUCKET QUANTITY</th>
+<th>OASIS BUTTER MILK 500ML ROLE QUANTITY</th>
+<th>OASIS KHOVA 500 GM TIN QUANTITY</th>
+<th>OASIS KHOVA 1000 GM TIN QUANTITY</th>
+<th>OASIS SHRIKHAND 100 GM TIN QUANTITY</th>
+<th>OASIS SHRIKHAND 250 GM TIN QUANTITY</th>
+<th>OASIS GHEE 200 ML TIN QUANTITY</th>
+<th>OASIS GHEE 500 ML TIN QUANTITY</th>
+<th>OASIS GHEE 15 LTR TIN QUANTITY</th>
+<th>PANEER LOOSE QUANTITY</th>
+<th>KHOVA LOOSE QUANTITY</th>
+<th>LASSI CUP FOIL QUANTITY</th>
+<th>IFF FLAVER MANGO QUANTITY</th>
+<th>IFF FLAVER VANILLA QUANTITY</th>
+<th>CULTURE AMAZIKA QUANTITY</th>
+<th>CULTURE DANISKO QUANTITY</th>
+<th>CULTURE HR QUANTITY</th>
+<th>LIQUID SOAP QUANTITY</th>
+<th>COS SODA QUANTITY</th>
+<th>KAOH QUANTITY</th>
+
+        <!-- <tr>
+          <th *ngFor="let column of columns">{{ column }}</th>
+        </tr> -->
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of data">
+          <td *ngFor="let column of columns">{{ row[column] }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

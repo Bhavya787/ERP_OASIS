@@ -1,0 +1,24 @@
+<!-- Table for SHOW LOGISTICS -->
+<div class="section-title">
+    <h2>SHOW LOGISTICS</h2>
+  </div>
+
+  <div class="container table-container">
+    <div class="row tbl-fixed">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>DATE</th>
+            <th>LOGISTICS TITLE</th>
+            <th>EXPENSE</th>
+            <th>STATUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let row of data">
+            <td *ngFor="let column of columns">{{ row[column] }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>

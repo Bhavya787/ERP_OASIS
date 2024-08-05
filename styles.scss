@@ -1,0 +1,290 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+
+// ====================
+// forms css
+// ====================
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  font-size: 20px;
+
+  margin: 0 auto;
+  padding: 40px;
+  // border: 1px solid #ddd;
+  padding-left: 350px;
+  padding-top: 00px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.form-group {
+  margin-bottom: 45px;
+  
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical; /* Allow textarea resizing */
+}
+
+button {
+  background-color: #375174; /* Green */
+  font-size: 20px;
+  color: white;
+  padding: 12px 20px;
+
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  float: center; /* Move button to the right */
+}
+
+button .bcontainer{
+  display: flex;
+}
+
+button:hover {
+  background-color: #293d57;
+}
+
+
+
+
+// ====================
+// forms css
+// ====================
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 20px;
+  
+    margin: 0 auto;
+    padding: 40px;
+    // border: 1px solid #ddd;
+    padding-left: 350px;
+    padding-top: 00px;
+    font-family: 'Josefin Sans', sans-serif;
+  
+  }
+  
+  .form-group {
+    margin-bottom: 45px;
+    padding-left: 170px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 80%;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical; /* Allow textarea resizing */
+  }
+  
+  button {
+    background-color: #375174; /* Green */
+    font-size: 20px;
+    color: white;
+    padding: 12px 20px;
+  
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    float: center; /* Move button to the right */
+  }
+  
+  button .bcontainer{
+    display: flex;
+  }
+  
+  button:hover {
+    background-color: #293d57;
+  }
+  
+  
+    /*--------------------------------------------------------------
+    # Sections General
+    --------------------------------------------------------------*/
+    section {
+      padding: 60px 0;
+      // padding-left: 700px;
+      overflow: hidden;
+      }
+      
+      .section-bg {
+      background-color: #f3f5fa;
+      }
+      
+      .section-title {
+      text-align: center;
+      padding-bottom: 30px;
+      padding-top: 50px;
+      padding-left: 300px;
+      }
+      
+      .section-title h2 {
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      position: relative;
+      color: #37517e;
+      font-family: 'Josefin Sans', sans-serif;
+
+      }
+      
+      .section-title h2::before {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 120px;
+      height: 1px;
+      background: #ddd;
+      bottom: 1px;
+      left: calc(50% - 60px);
+      }
+      
+      .section-title h2::after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 40px;
+      height: 3px;
+      background: #47b2e4;
+      bottom: 0;
+      left: calc(50% - 20px);
+      }
+      
+      .section-title p {
+      margin-bottom: 0;
+      }
+
+
+// ====================
+// tables CSS
+// ====================
+
+// ***********************
+// Table
+// ***********************
+
+
+.table {
+  width: 1000px;
+  margin: auto;
+  border-collapse: collapse;
+  // margin: 25px 0;
+  min-width: max-content;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  // background-color: #f2f2f2;
+  position: sticky;
+  top: 0px;
+  background: #375174;
+  width: 200px;
+}
+
+// .table tr {
+//   scroll-snap-align: start;
+// }
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table thead tr {
+  // position: sticky;
+  background-color: #375174;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tbl-fixed {
+  overflow-x: scroll;
+  overflow-y: auto;
+  height: fit-content;
+  max-height: 70vh;
+  // margin-top: 40px;
+}
+
+.table-container {
+  padding-left: 300px;
+  margin-top: 50px auto;
+  margin-left: 125px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center; /* Center the table horizontally */
+}
+
+.table-container table {
+  color: black; /* Black text color for the table */
+  border-collapse: collapse; /* Collapse border spacing */
+  width: 80%; /* Adjust the width as needed */
+  border-radius: 10px; /* Add border radius to the table */
+  overflow: hidden; /* Hide overflow to prevent clipping of rounded corners */
+}
+
+.table-container th {
+  position: sticky;
+  background-color: #375174; /* Blue background color for the table header */
+  color: white; /* White text color for the table header */
+  padding: 10px; /* Adjust padding as needed */
+  border: 1px solid #ddd; /* Add border around table headers */
+}
+
+.table-container td {
+  font-size: 14px;
+  border: 1px solid #ddd; /* Add borders around table cells */
+  padding: 10px; /* Adjust padding as needed */
+  // border: 1px solid #000000;
+  font-size: 18px;
+  }
+
+// .table-container tr {
+//   scroll-snap-align: start;
+// }
+
+// .table-container tbody tr:nth-child(even) {
+//   background-color: #f2f2f2; /* Alternate row background color */
+// }
